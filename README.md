@@ -5,6 +5,8 @@
  - Insertion Sort
  - Selection Sort
  - Bubble Sort
+
+[You can Check out the Website Here!](https://htmlpreview.github.io/?https://github.com/mansi3632/Sorting_Visualizer/blob/main/Sorting_Visualiser_Project/index.html)
  
  ![screencapture-127-0-0-1-5500-index-html-2021-10-25-00_07_23](https://user-images.githubusercontent.com/79849761/138608306-a4796833-65f5-453f-a75c-d99ef4af472c.png)
  
