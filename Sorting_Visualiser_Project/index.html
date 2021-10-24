@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <title>Sorting Visualizer</title>
+</head>
+
+<body style="background-color: rgb(51, 47, 47)">
+    <h1 style="text-align: center">Sorting Visualizer</h1>
+    <nav class="navbar navbar-default navbar-fixed-top navbar">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-left mt-2 align-items-center">
+                <li>
+                    <button id="button" type="button" class="btn btn-outline-danger text-white newArray">
+                        New Array
+                    </button>
+                </li>
+                <li class="align-contents-center pb-1">
+                    <span id="size" style="font-weight: 500" class="text-white pl-3 pr-3">Size
+                        <input id="arr_sz" type="range" min="5" max="100" step="1" value="60" />
+                    </span>
+                </li>
+                <li class="align-contents-center pb-1">
+                    <span id="speed" class="text-white" style="font-weight: 500">Speed
+                        <input id="speed_input" type="range" min="20" max="300" stepDown="10" value="60" />
+                    </span>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <button type="button" class="btn btn-outline-primary selectionSort text-white">
+                        Selection Sort
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-outline-primary insertionSort text-white">
+                        Insertion Sort
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-outline-primary bubbleSort text-white">
+                        Bubble Sort
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="bars" class="flex-container p-5"></div>
+    <script src="Sorting.js"></script>
+    <script src="Selection.js"></script>
+    <script src="Insertion.js"></script>
+    <script src="Bubble.js"></script>
+
+</body>
+
+</html>
